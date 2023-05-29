@@ -24,22 +24,22 @@ O Laravel é acessível, poderoso e fornece as ferramentas necessárias para apl
 
 Siga estes passos para instalar o Laravel:
 
-1. Clone o repositório:
+## 1. Clone o repositório:
 git clone https://github.com/armandosoaress/Supliu
-2. Instale as dependências:
+## 2. Instale as dependências:
  composer install
-3. Crie o arquivo .env:
+## 3. Crie o arquivo .env:
 cp .env.example .env
-4. Gere a chave da aplicação:
+## 4. Gere a chave da aplicação:
 php artisan key:generate
-5. Crie o banco de dados e configure o arquivo .env:
+## 5. Crie o banco de dados e configure o arquivo .env:
 DB_CONNECTION=mysql
 DB_HOST=
 DB_PORT=
 DB_DATABASE=
 DB_USERNAME=
 DB_PASSWORD=
-6. Execute as migrations:
+## 6. Execute as migrations:
 php artisan migrate
-7. Execute o servidor:
+## 7. Execute o servidor:
 php artisan serve
